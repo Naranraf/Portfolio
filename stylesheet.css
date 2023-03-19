@@ -1,0 +1,400 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(219, 219, 219);
+}
+
+
+:root {
+    --main_color: rgb(24, 109, 170);
+    --secondary_color: #f4f9e9ff;
+    --third-color: rgb(153, 153, 153);
+    --alabaster: #eef0ebff;
+
+}
+
+.header_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 45px;
+    background-color: var(--main_color)
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: end;
+
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+    font-size: 20px;
+    padding: 5px;
+}
+
+nav ul {
+    float: right;
+    width: 80%;
+}
+
+nav li {
+    float: right;
+    justify-content: space-around;
+    font-size: 12px;
+
+    list-style: none;
+
+}
+
+nav li {
+    color: var(--secondary_color);
+}
+
+nav li:hover {
+    background-color: var(--secondary_color);
+    color: black;
+    border-radius: 10px 10px 40px 40px;
+
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    height: auto;
+    align-items: center;
+    padding: 5px 10px 6px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+
+
+
+h2 {
+    color: var(--main_color);
+    text-align: center;
+    font-size: 24px;
+    padding: 0;
+    margin: 20px 0px 20px 0px;
+}
+
+p {
+    color: var(--main_color);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 350px;
+    width: 100vw;
+    color: var(--main_color);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+
+
+.card {
+    color: var(--alabaster);
+    display: inline-block;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+
+    font-size: 8px;
+    padding: 10px;
+    background-color: var(--main_color);
+}
+
+.h2_skills {
+    background-color: var(--main_color);
+    color: white;
+    width: 100vw;
+    height: 60px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.skills_container {
+    height: 400px;
+    padding-top: 20px;
+    background-color: var(--main_color);
+    border-radius: 0px 0px 50% 50%;
+    color: white;
+    box-shadow: none;
+}
+
+.skills_container div {
+    width: 350px;
+    height: 300px;
+
+}
+
+.skills_container div p {
+    color: white;
+
+}
+
+#skills_card1 {
+    border-radius: 10px 10px 0px 85%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+#skills_card1:hover {
+    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
+
+}
+
+#skills_card2:hover {
+    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
+
+}
+
+#skills_card3:hover {
+    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
+
+}
+
+#skills_card4:hover {
+    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
+
+}
+
+
+#skills_card4 {
+    border-radius: 10px 10px 85% 0px;
+    background-size: auto;
+    background-position: center;
+}
+
+footer {
+    width: 100%;
+    background-color: var(--main_color);
+    color: white;
+    font-size: 16px;
+}
+
+#h2_experience {
+    padding: 0px 0px 10px 0px;
+}
+
+.experience_container {
+    width: 100%;
+    height: auto;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.experience_container div {
+    color: var(--alabaster);
+    height: 300px;
+    width: 350px;
+
+}
+
+.experience_container div p {
+    color: var(--alabaster);
+}
+
+#experience_card1:hover {
+    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
+
+}
+
+#experience_card2:hover {
+    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
+
+}
+
+#experience_card3:hover {
+    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
+
+}
+
+#experience_card4:hover {
+    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
+
+}
+
+
+#h2_projects {
+    padding: 0px 0px 10px 0px;
+}
+
+.projects_container {
+    width: 100%;
+    height: auto;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.projects_container div {
+    height: 300px;
+    width: 350px;
+    color: var(--alabaster);
+}
+
+.projects_container div p {
+    color: var(--alabaster);
+
+}
+
+#projects_card1:hover {
+    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
+
+}
+
+#projects_card2:hover {
+    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
+
+}
+
+#projects_card3:hover {
+    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
+
+}
+
+#projects_card4:hover {
+    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
+
+}
+
+.contact_container {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    background-color: aliceblue;
+    height: auto;
+
+    margin-bottom: 50px;
+}
+
+
+#contact_card1{
+    display: flex;
+    flex-direction:column ;
+    background-color: rgb(219, 219, 219);
+    border-radius:0;
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+
+
+    .header_container {
+        height: 100px;
+    }
+
+    nav {
+        width: 100%;
+
+    }
+
+    h1 {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    nav ul {
+        float: none;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    nav li {
+        float: none;
+        margin: 5px;
+    }
+
+    nav li:hover {
+        background-color: var(--main_color);
+        color: var(--alabaster);
+    }
+
+    nav li a:hover {
+        color: white;
+    }
+
+    .container {
+        height: auto;
+    }
+
+    .card {
+        font-size: 16px;
+        padding: 20px;
+        background-color: var(--third-color);
+    }
+
+    .h2_skills {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .skills_container {
+        border-radius: 0;
+        text-align: center;
+    }
+
+    .skills_container div {
+        width: 100%;
+        height: auto;
+    }
+
+    .skills_container div p {
+        margin: 10px 0;
+    }
+
+    #skills_card1,
+    #skills_card4 {
+        border-radius: 10px;
+    }
+
+    .experience_container div,
+    .projects_container div {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        font-size: 16px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #contact_card1 {
+        width: 100%;
+    }
+}
