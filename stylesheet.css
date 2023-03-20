@@ -164,13 +164,13 @@ p {
 }
 
 .skills_container {
-    height:290px;
+    height: 290px;
     padding-top: 20px;
     background-color: var(--main_color);
     border-radius: 0px 0px 50% 50%;
     color: white;
     box-shadow: none;
-    
+
 }
 
 .skills_container div {
@@ -261,7 +261,7 @@ footer {
 
 
 
-@media only screen and (max-width: 1370px) {
+@media only screen and (max-width: 1420px) {
 
 
     .header_container {
@@ -323,7 +323,7 @@ footer {
     .h2_about {
         background-color: var(--alabaster);
         color: var(--main_color);
-       margin-top: 10px;
+        margin-top: 10px;
     }
 
     .h2_skills {
@@ -366,7 +366,7 @@ footer {
         border-radius: 0px;
     }
 
-    
+
 
     .experience_container div,
     .projects_container div {
@@ -401,5 +401,5 @@ footer {
         background-color: var(--alabaster);
     }
 
-    
+
 }
