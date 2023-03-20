@@ -164,12 +164,13 @@ p {
 }
 
 .skills_container {
-    height: 290px;
+    height: auto;
     padding-top: 20px;
     background-color: var(--main_color);
     border-radius: 0px 0px 50% 50%;
     color: white;
     box-shadow: none;
+    padding-bottom:80px ;
 
 }
 
@@ -260,8 +261,7 @@ footer {
 }
 
 
-
-@media only screen and (max-width: 1420px) {
+@media only screen and (max-width: 660px) {
 
 
     .header_container {
