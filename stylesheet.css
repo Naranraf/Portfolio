@@ -8,12 +8,12 @@
 }
 
 body {
-    background-color: rgb(219, 219, 219);
+    background-color: var(--alabaster));
 }
 
 
 :root {
-    --main_color: rgb(24, 109, 170);
+    --main_color: rgb(41, 59, 121);
     --secondary_color: #f4f9e9ff;
     --third-color: rgb(153, 153, 153);
     --alabaster: #eef0ebff;
@@ -126,6 +126,34 @@ p {
     background-color: var(--main_color);
 }
 
+.card:hover {
+    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
+}
+
+.h2_about {
+    background-color: var(--main_color);
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.about_container {
+    height: 150px;
+    padding-top: 20px;
+    background-color: var(--main_color);
+
+    box-shadow: none;
+}
+
+.about_container p {
+    color: white;
+}
+
+#about_card:hover {
+    background-image: none;
+}
+
 .h2_skills {
     background-color: var(--main_color);
     color: white;
@@ -136,7 +164,7 @@ p {
 }
 
 .skills_container {
-    height: 400px;
+    height: 250px;
     padding-top: 20px;
     background-color: var(--main_color);
     border-radius: 0px 0px 50% 50%;
@@ -145,9 +173,8 @@ p {
 }
 
 .skills_container div {
-    width: 350px;
-    height: 300px;
-
+    width: 450px;
+    height: 190px;
 }
 
 .skills_container div p {
@@ -159,35 +186,15 @@ p {
     border-radius: 10px 10px 0px 85%;
     background-size: cover;
     background-position: center;
+    text-align: right;
 
 }
-
-
-#skills_card1:hover {
-    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
-
-}
-
-#skills_card2:hover {
-    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
-
-}
-
-#skills_card3:hover {
-    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
-
-}
-
-#skills_card4:hover {
-    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
-
-}
-
 
 #skills_card4 {
     border-radius: 10px 10px 85% 0px;
     background-size: auto;
     background-position: center;
+    text-align: left;
 }
 
 footer {
@@ -220,25 +227,6 @@ footer {
     color: var(--alabaster);
 }
 
-#experience_card1:hover {
-    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
-
-}
-
-#experience_card2:hover {
-    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
-
-}
-
-#experience_card3:hover {
-    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
-
-}
-
-#experience_card4:hover {
-    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
-
-}
 
 
 #h2_projects {
@@ -263,25 +251,7 @@ footer {
 
 }
 
-#projects_card1:hover {
-    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
 
-}
-
-#projects_card2:hover {
-    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
-
-}
-
-#projects_card3:hover {
-    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
-
-}
-
-#projects_card4:hover {
-    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
-
-}
 
 .contact_container {
     display: flex;
@@ -291,18 +261,16 @@ footer {
     width: auto;
     background-color: aliceblue;
     height: auto;
-
     margin-bottom: 50px;
 }
 
 
-#contact_card1{
+#contact_card1 {
     display: flex;
-    flex-direction:column ;
-    background-color: rgb(219, 219, 219);
-    border-radius:0;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0;
 }
-
 
 
 @media only screen and (max-width: 1400px) {
@@ -349,12 +317,36 @@ footer {
 
     .container {
         height: auto;
+
     }
 
     .card {
         font-size: 16px;
-        padding: 20px;
-        background-color: var(--third-color);
+        background-color: var(--main_color);
+        border-radius: 0px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .card:hover {
+        background-image: none;
+    }
+
+    .h2_about {
+        background-color: var(--alabaster);
+        color: var(--main_color);
+        margin: 10px;
+    }
+
+    .h2_skills {
+        background-color: var(--alabaster);
+        color: var(--main_color);
+        margin: 10px;
+    }
+
+    .about_container {
+        padding: 10px;
+        margin: 10px;
     }
 
     .h2_skills {
@@ -366,20 +358,24 @@ footer {
     .skills_container {
         border-radius: 0;
         text-align: center;
+        background-color: var(--alabaster);
+
     }
 
     .skills_container div {
         width: 100%;
         height: auto;
+        margin: 10px;
     }
 
     .skills_container div p {
         margin: 10px 0;
+        border-radius: 0px;
     }
 
     #skills_card1,
     #skills_card4 {
-        border-radius: 10px;
+        border-radius: 0px;
     }
 
     .experience_container div,
@@ -394,7 +390,30 @@ footer {
         text-align: center;
     }
 
-    #contact_card1 {
+
+    .contact_container {
+        display: flex;
+        position: static;
         width: 100%;
+        background-color: var(--alabaster);
+        height: auto;
+
+    }
+
+    #contact_card1 {
+        display: flex;
+        flex-direction: row;
+        background-color: var(--alabaster);
+        border-radius: 0;
+    }
+
+    body {
+        background-color: var(--alabaster);
+    }
+
+    main {
+        padding: 0px;
+        margin: 0px;
+
     }
 }
