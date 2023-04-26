@@ -128,7 +128,7 @@ p {
     box-shadow: 10px 10px 5px 0px rgba(47, 157, 192, 1);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(47, 157, 192, 1);
     -moz-box-shadow: 10px 10px 5px 0px rgba(47, 157, 192, 1);
-    border: solid 1px var(--font_color);
+    
 }
 
 h2,
@@ -145,7 +145,7 @@ a {
 }
 
 .about_container {
-    height: 750px;
+    height: auto;
     width: 100vw;
     border: 0 black;
 }
