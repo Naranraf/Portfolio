@@ -7,17 +7,15 @@
     font-size: 16px;
 }
 
-body {
-    background-color: var(--alabaster);
+:root {
+    --main_color: #000000;
+    --font_color: #2f9dc0;
 }
 
-
-:root {
-    --main_color: rgb(41, 59, 121);
-    --secondary_color: #f4f9e9ff;
-    --third-color: rgb(153, 153, 153);
-    --alabaster: #eef0ebff;
-
+body {
+    background-color: var(--main_color);
+    font-family: 'Darker Grotesque', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 
 .header_container {
@@ -65,7 +63,7 @@ nav li {
 
 nav li:hover {
     background-color: var(--secondary_color);
-    color: black;
+    color: rgb(255, 255, 255);
     border-radius: 10px 10px 40px 40px;
 
 }
@@ -80,14 +78,14 @@ nav a {
 }
 
 nav a:hover {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 
 
 
 h2 {
-    color: var(--main_color);
+    color: white;
     text-align: center;
     font-size: 24px;
     padding: 0;
@@ -95,7 +93,7 @@ h2 {
 }
 
 p {
-    color: var(--main_color);
+    color: white;
 }
 
 .container {
@@ -115,7 +113,7 @@ p {
 
 
 .card {
-    color: var(--alabaster);
+    color: white;
     display: inline-block;
     height: auto;
     width: auto;
@@ -127,56 +125,57 @@ p {
 }
 
 .card:hover {
-    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1679256203~exp=1679256803~hmac=a4571061e627c81a72b2b0ca15858094c5633275f8071d020af532acd0f92997');
+    box-shadow: 10px 10px 5px 0px rgba(47, 157, 192, 1);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(47, 157, 192, 1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(47, 157, 192, 1);
+    border: solid 1px var(--font_color);
+}
+
+h2,
+h1,
+a {
+    color: var(--font_color);
 }
 
 .h2_about {
     background-color: var(--main_color);
-    color: white;
     width: 100%;
     height: 100%;
     margin: 0;
 }
 
 .about_container {
-    height: 150px;
-    padding-top: 20px;
-    background-color: var(--main_color);
-
-    box-shadow: none;
+    height: 750px;
+    width: 100vw;
+    border: 0 black;
 }
 
-.about_container p {
-    color: white;
+.about_container img {
+    max-width: 100%;
+    height: auto;
+    border: 0 black;
 }
 
-#about_card:hover {
-    background-image: none;
-}
+
 
 .h2_skills {
-    background-color: var(--main_color);
-    color: white;
     width: 100vw;
-    height: 60px;
-    padding-top: 20px;
-    margin: 0;
+
 }
 
 .skills_container {
     height: auto;
     padding-top: 20px;
-    background-color: var(--main_color);
-    border-radius: 0px 0px 50% 50%;
     color: white;
     box-shadow: none;
-    padding-bottom:80px ;
+    padding-bottom: 80px;
 
 }
 
 .skills_container div {
     width: 450px;
     height: 170px;
+    margin: 10px;
 }
 
 .skills_container div p {
@@ -186,14 +185,18 @@ p {
 
 
 footer {
+    height: 25px;
     width: 100%;
     background-color: var(--main_color);
-    color: white;
+    color: #2f9dc0;
     font-size: 16px;
+    text-decoration: bold;
 }
 
 #h2_experience {
     padding: 0px 0px 10px 0px;
+
+
 }
 
 .experience_container {
@@ -205,14 +208,14 @@ footer {
 }
 
 .experience_container div {
-    color: var(--alabaster);
+    color: white;
     height: 300px;
     width: 350px;
 
 }
 
 .experience_container div p {
-    color: var(--alabaster);
+    color: white;
 }
 
 
@@ -231,11 +234,11 @@ footer {
 .projects_container div {
     height: 300px;
     width: 350px;
-    color: var(--alabaster);
+    color: white;
 }
 
 .projects_container div p {
-    color: var(--alabaster);
+    color: white;
 
 }
 
@@ -250,6 +253,7 @@ footer {
     background-color: aliceblue;
     height: auto;
     margin-bottom: 50px;
+
 }
 
 
@@ -257,20 +261,19 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-radius: 0;
+
 }
 
 
-@media only screen and (max-width: 660px) and (max-width: 661px) {
-
+@media only screen and (max-width: 660px) {
 
     .header_container {
-        height: 100px;
+        height: auto;
+        padding: 10px;
     }
 
     nav {
         width: 100%;
-
     }
 
     h1 {
@@ -294,18 +297,9 @@ footer {
         margin: 5px;
     }
 
-    nav li:hover {
-        background-color: var(--main_color);
-        color: var(--alabaster);
-    }
-
-    nav li a:hover {
-        color: white;
-    }
-
     .container {
         height: auto;
-
+        padding: 10px;
     }
 
     .card {
@@ -314,22 +308,27 @@ footer {
         border-radius: 0px;
         padding: 10px;
         margin: 10px;
+        border: solid 1px #2f9dc0;
+
     }
 
     .card:hover {
-        background-image: none;
+        box-shadow: none;
     }
 
+    
     .h2_about {
         background-color: var(--alabaster);
         color: var(--main_color);
         margin-top: 10px;
+        padding: 10px;
     }
 
     .h2_skills {
         background-color: var(--alabaster);
-        color: var(--main_color);
+        color: var(--font_color);
         margin: 10px;
+        padding: 10px;
     }
 
     .about_container {
@@ -338,12 +337,8 @@ footer {
         width: 100%;
         background-color: var(--alabaster);
         height: auto;
-    }
-
-    .h2_skills {
-        height: auto;
-        padding: 20px;
-        text-align: center;
+        flex-wrap: wrap;
+        padding: 10px;
     }
 
     .skills_container {
@@ -353,12 +348,14 @@ footer {
         background-color: var(--alabaster);
         height: auto;
         padding: 0;
+        flex-wrap: wrap;
     }
 
     .skills_container div {
         width: 100%;
         height: auto;
         margin: 10px;
+        text-align: center;
     }
 
     .skills_container div p {
@@ -366,12 +363,11 @@ footer {
         border-radius: 0px;
     }
 
-
-
     .experience_container div,
     .projects_container div {
         width: 100%;
         height: auto;
+        padding: 10px;
     }
 
     footer {
@@ -380,14 +376,14 @@ footer {
         text-align: center;
     }
 
-
     .contact_container {
         display: flex;
         position: static;
         width: 100%;
         background-color: var(--alabaster);
         height: auto;
-
+        flex-wrap: wrap;
+        padding: 10px;
     }
 
     #contact_card1 {
@@ -395,11 +391,11 @@ footer {
         flex-direction: row;
         background-color: var(--alabaster);
         border-radius: 0;
+        padding: 10px;
     }
 
     body {
-        background-color: var(--alabaster);
+        background-color: black;
     }
-
 
 }
