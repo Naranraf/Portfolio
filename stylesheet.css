@@ -333,7 +333,6 @@ footer {
 
     .about_container {
         display: flex;
-        position: static;
         width: 100%;
         background-color: var(--alabaster);
         height: auto;
@@ -392,6 +391,9 @@ footer {
         background-color: var(--alabaster);
         border-radius: 0;
         padding: 10px;
+    }
+    main{
+        height: auto;
     }
 
     body {
